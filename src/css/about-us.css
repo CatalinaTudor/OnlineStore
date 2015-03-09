@@ -1,0 +1,119 @@
+.about-us {
+  /* About Us - First Section */
+  /* "You may also like" carousel */
+  /* Large desktop */
+  /* Landscape phone to portrait tablet */
+}
+.about-us #short-description span {
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  font-family: serif;
+  font-style: italic;
+  padding: 0 3px;
+}
+.about-us #main h2 {
+  color: #343434;
+  font-weight: 600;
+}
+.about-us #main p,
+.about-us #inspirations h2,
+.about-us #short-description span {
+  color: #6E6969;
+}
+.about-us .long-description {
+  float: left;
+}
+.about-us nav ul li,
+.about-us #user-interaction span,
+.about-us .media li {
+  display: inline-block;
+}
+.about-us #short-description h2,
+.about-us #inspirations h2,
+.about-us #short-description p {
+  text-align: center;
+}
+.about-us #inspirations li,
+.about-us .insp-slide,
+.about-us .media a {
+  display: block;
+}
+.about-us header a,
+.about-us .column a,
+.about-us .social span {
+  color: #494949;
+}
+.about-us #inspirations h2,
+.about-us #short-description p {
+  font-family: serif;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.about-us #short-description {
+  padding-top: 15px;
+}
+.about-us #short-description h2 {
+  font-size: 2.4em;
+  padding: 35px 0 10px;
+}
+.about-us #short-description h2,
+.about-us #short-description p,
+.about-us .long-description h2,
+.about-us .long-description p {
+  margin: 0;
+}
+.about-us .long-description {
+  width: 46%;
+  padding: 35px 2% 50px;
+}
+.about-us img {
+  max-width: 100%;
+  height: auto;
+}
+.about-us .long-description p {
+  padding-bottom: 10px;
+}
+.about-us .long-description h2 {
+  font-size: 1.6em;
+  padding: 19px 0 10px;
+}
+.about-us .long-description p {
+  width: 90%;
+  font-size: 1.2em;
+}
+.about-us #inspirations {
+  padding-top: 45px;
+  border-top: 0.1em solid #D7D1D1;
+}
+.about-us #inspirations h2 {
+  padding-bottom: 35px;
+}
+@media (min-width: 1600px) {
+  .about-us .long-description {
+    max-width: 520px;
+    padding: 35px 5% 50px;
+  }
+  .about-us .long-description h2 {
+    font-size: 2.2em;
+  }
+  .about-us .long-description p {
+    font-size: 1.3em;
+  }
+  .about-us .long-description.left {
+    float: left;
+  }
+  .about-us .long-description.right {
+    float: right;
+  }
+}
+@media (max-width: 767px) {
+  .about-us .long-description h2 {
+    font-size: 1.3em;
+  }
+  .about-us .long-description p {
+    width: 100%;
+  }
+  .about-us #short-description p {
+    font-size: 1.1em;
+  }
+}

@@ -1,0 +1,87 @@
+.site {
+  /* Terms Of Service - First Section */
+  /* Terms Of Service - Second Section */
+  /* Footer columns */
+}
+.site #main h2 {
+  color: #343434;
+  font-weight: 600;
+}
+.site #main p,
+.site #short-description span,
+.site .long-description h2 {
+  color: #6E6969;
+}
+.site nav ul li,
+.site #user-interaction span,
+.site .media li {
+  display: inline-block;
+}
+.site #logo,
+.site #short-description h2,
+.site #short-description p {
+  text-align: center;
+}
+.site .media a {
+  display: block;
+}
+.site header a,
+.site .column a,
+.site .social span {
+  color: #494949;
+}
+.site #short-description p {
+  font-family: serif;
+  font-size: 1.5em;
+}
+.site #short-description p,
+.site .long-description h3 {
+  font-style: italic;
+}
+.site #short-description {
+  padding-top: 15px;
+}
+.site #short-description span {
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  font-family: serif;
+  font-style: italic;
+  padding: 0 3px;
+}
+.site #short-description h2 {
+  font-size: 2.4em;
+  padding: 35px 0 10px;
+}
+.site #short-description h2,
+.site #short-description p {
+  margin: 0;
+}
+.site .long-description {
+  padding: 61px 0;
+}
+.site .long-description p {
+  padding-bottom: 10px;
+}
+.site .long-description h2 {
+  font-size: 1.3em;
+  padding-bottom: 6px;
+  font-weight: bold;
+}
+.site .long-description h2,
+.site .long-description p {
+  margin: 0;
+}
+.site .long-description h3 {
+  font-size: 1.37em;
+  color: #343434;
+  padding-bottom: 3px;
+}
+.site .long-description p {
+  font-size: 1.2em;
+}
+.site #footer {
+  border-top: 0.1em solid #D7D1D1;
+}
+.site #inspirations .bx-wrapper {
+  margin: 0 0 30px;
+}

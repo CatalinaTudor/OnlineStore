@@ -1,0 +1,124 @@
+.categories {
+  /* Category of clothing */
+  /* Lookbook carousel */
+  /* Large desktop */
+  /* Portrait tablet to landscape and desktop */
+  /* Landscape phone to portrait tablet */
+}
+.categories #main {
+  font-family: sans-serif;
+}
+.categories nav ul li,
+.categories #user-interaction span,
+.categories .item-categ ul li,
+.categories .media li {
+  display: inline-block;
+}
+.categories #logo,
+.categories .items h2,
+.categories .items span,
+.categories #inspirations h2,
+.categories section .top {
+  text-align: center;
+}
+.categories .item-categ {
+  padding-top: 15px;
+}
+.categories .first span {
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  font-family: serif;
+  font-style: italic;
+  padding: 0 3px;
+  color: #6E6969;
+}
+.categories .top h2 {
+  font-size: 2.4em;
+  color: #343434;
+  padding-bottom: 5px;
+}
+.categories .top a {
+  font-size: 1.1em;
+}
+.categories .top a,
+.categories .items a {
+  text-decoration: none;
+}
+.categories section .top {
+  margin: 35px 0 10px;
+}
+.categories .items {
+  height: 325px;
+  padding: 30px 0 40px;
+  margin: 0 auto;
+}
+.categories .items li {
+  height: 100%;
+  margin: 0 2.9%;
+  float: left;
+}
+.categories .items img {
+  border: 0 solid #D7D1D1;
+}
+.categories .top h2,
+.categories .items h2 {
+  margin: 0;
+}
+.categories .items h2 {
+  font-weight: 600;
+  padding: 15px 0 6px;
+  font-size: 1.2em;
+}
+.categories .items,
+.categories .items span {
+  font-size: 1.1em;
+  color: #2C2C2C;
+}
+.categories .items a,
+.categories .items span {
+  color: #494949;
+}
+.categories .items span,
+.categories .items a {
+  display: block;
+}
+.categories #inspirations {
+  padding-top: 55px;
+  border-top: 0.1em solid #D7D1D1;
+}
+.categories #inspirations h2 {
+  font-size: 1.5em;
+  color: #6E6969;
+  font-style: italic;
+  padding-bottom: 35px;
+  font-family: serif;
+  letter-spacing: 0.02em;
+  word-spacing: 0.08em;
+}
+@media (min-width: 1200px) {
+  .categories .items {
+    max-width: 959px;
+  }
+  .categories .items li {
+    margin: 0 1.7%;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .categories .items {
+    width: 614px;
+  }
+  .categories .items li:nth-child(n+3) {
+    display: none;
+  }
+  .categories .items li {
+    margin: 0 8%;
+  }
+}
+@media (max-width: 767px) {
+  .categories .items {
+    width: 216px;
+  }
+  .categories .items li:nth-child(n+2) {
+    display: none;
+  }
+}

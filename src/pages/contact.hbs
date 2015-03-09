@@ -1,0 +1,30 @@
+{{> open}}
+    <div id="main" class="contact">
+        {{> main-header}}
+        <div id="short-description">
+            <a class="path" href="index.html">HOME</a><span>/</span><a class="path" href="terms-of-use.html">CONTACT</a>
+            <h2>CONTACT</h2>
+            <p>Vivamus tincidunt sollicitudin enim, eu lobortis sapien varius ut.</p>
+        </div>
+        <form class="contact" name="contact" method="post">
+            <label for="topic">TOPIC</label>
+            <select id="topic" name="topic">
+                <option value="lorem ipsum">Lorem ipsum</option>
+            </select>
+
+            <div class="small-fields">
+                <label for="name">NAME</label>
+                <input id="name" name="name" />
+            </div>
+
+            <div class="small-fields">
+                <label for="email">E-MAIL</label>
+                <input id="email" type="email" name="email" />
+            </div>
+
+            <label for="message">MESSAGE</label>    
+            <textarea id="message" name="message" rows="10"></textarea>
+
+            <input id="send-btn" type="submit" name="send-btn" value="SEND" />
+        </form>
+        {{> close}}

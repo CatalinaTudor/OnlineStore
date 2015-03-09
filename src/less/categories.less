@@ -1,0 +1,142 @@
+.categories {
+    #main {
+        font-family: sans-serif;
+    }
+
+    nav ul li, #user-interaction span, .item-categ ul li, .media li {
+        display: inline-block;
+    }
+
+    #logo, .items h2, .items span, #inspirations h2, section .top {
+        text-align: center;
+    }
+
+    /* Category of clothing */
+
+    .item-categ {
+        padding-top: 15px;
+    }
+
+    .first span {
+        font-size: 1.2em;
+        letter-spacing: 0.01em;
+        font-family: serif;
+        font-style: italic;
+        padding: 0 3px;
+        color: #6E6969;
+    }
+
+    .top h2 {
+        font-size: 2.4em;
+        color: #343434;
+        padding-bottom: 5px;
+    }
+
+    .top a {
+        font-size: 1.1em;
+    }
+
+    .top a, .items a {
+        text-decoration: none;
+    }
+
+    section .top {
+        margin: 35px 0 10px;
+    }
+
+    .items {
+        height: 325px;
+        padding: 30px 0 40px;
+        margin: 0 auto;
+    }
+
+    .items li {
+        height: 100%;
+        margin: 0 2.9%;
+        float: left;
+    }
+
+    .items img {
+        border: 0 solid #D7D1D1;
+    }
+
+    .top h2, .items h2 {
+        margin: 0;
+    }
+
+    .items h2 {
+        font-weight: 600;
+        padding: 15px 0 6px;
+        font-size: 1.2em;
+    }
+
+    .items, .items span {
+        font-size: 1.1em;
+        color: #2C2C2C;
+    }
+
+    .items a, .items span {
+        color: #494949;
+    }
+
+    .items span, .items a {
+        display: block;
+    }
+
+    /* Lookbook carousel */    
+
+    #inspirations {
+        padding-top: 55px;
+        border-top: 0.1em solid #D7D1D1;
+    }
+
+    #inspirations h2 {
+        font-size: 1.5em;
+        color: #6E6969;
+        font-style: italic;
+        padding-bottom: 35px;
+        font-family: serif;
+        letter-spacing: 0.02em;
+        word-spacing: 0.08em;
+    }
+
+    /* Large desktop */
+
+    @media (min-width: 1200px) { 
+        .items {
+            max-width: 959px;
+
+            li {
+                margin: 0 1.7%;
+            }
+        }
+    }
+
+    /* Portrait tablet to landscape and desktop */
+
+    @media (min-width: 768px) and (max-width: 979px) { 
+        .items {
+            width: 614px;
+
+            li:nth-child(n+3) {
+                display: none;
+            }
+
+            li {
+                margin: 0 8%;
+            }
+        }
+    }
+
+    /* Landscape phone to portrait tablet */
+
+    @media (max-width: 767px) { 
+        .items {
+            width: 216px;
+
+            li:nth-child(n+2) {
+                display: none;
+            }
+        }
+    }
+}

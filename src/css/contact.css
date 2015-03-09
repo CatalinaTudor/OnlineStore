@@ -1,0 +1,94 @@
+.contact {
+  /* Contact - Short Section */
+  /* Contact Form */
+  /* Footer columns */
+}
+.contact nav ul li,
+.contact #user-interaction span,
+.contact .media li,
+.contact label {
+  display: inline-block;
+}
+.contact #short-description span {
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  font-family: serif;
+  font-style: italic;
+  padding: 0 3px;
+  color: #6E6969;
+}
+.contact #short-description h2,
+.contact #short-description p {
+  text-align: center;
+}
+.contact .media a,
+.contact #message,
+.contact #send-btn {
+  display: block;
+}
+.contact #short-description {
+  padding-top: 15px;
+}
+.contact #short-description h2 {
+  font-size: 2.4em;
+  padding: 35px 0 10px;
+}
+.contact #short-description h2,
+.contact #short-description p {
+  color: #494949;
+  margin: 0;
+}
+.contact #short-description p {
+  font-family: serif;
+  font-size: 1.5em;
+  padding-bottom: 40px;
+  font-style: italic;
+}
+.contact form {
+  width: 50%;
+}
+.contact form,
+.contact #topic {
+  color: #494949;
+}
+.contact form,
+.contact .search a,
+.contact .search:hover a {
+  margin: 0 auto;
+}
+.contact label {
+  font-size: 1.2em;
+  padding: 7px 0;
+}
+.contact select {
+  width: 100%;
+  height: 37px;
+  background-color: #fff;
+}
+.contact .small-fields {
+  width: 49%;
+  float: left;
+  margin-left: 3px;
+  overflow: hidden;
+}
+.contact .small-fields input {
+  width: 98%;
+}
+.contact #message {
+  width: 100%;
+  padding: 0;
+}
+.contact #send-btn {
+  width: 35%;
+  height: 40px;
+  margin: 20px auto 40px;
+  padding: 0;
+  border: none;
+  background-color: #f68236;
+  color: #fff;
+  font-family: sans;
+  cursor: pointer;
+}
+.contact #footer {
+  border-top: 0.1em solid #D7D1D1;
+}

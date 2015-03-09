@@ -1,0 +1,199 @@
+.products {
+    body {
+        color: #494949;
+    }
+
+    .page-nr li {
+        background-color: #494949;
+    }
+
+    .items li, .page-nr li {
+        float: left;
+    }
+
+    nav ul li, #user-interaction span, .item-categ ul li, .media li {
+        display: inline-block;
+    }
+
+    #logo, #inspirations h2, .all-products h2, .all-products span, .criteria, .page-nr ul {
+        text-align: center;
+    }
+
+    #logo a, .page-nr a {
+        color: #fff;
+    }
+
+    .items, .page-nr, .page-nr ul {
+        overflow: hidden;
+    }
+
+    #inspirations li, .insp-slide, .media a, .prod span, .items a {
+        display: block;
+    }
+
+    .items a, .page-nr a{
+        text-decoration: none;
+    }
+
+    .column a, .all-products h2, header a, .items a, .page-nr li:hover a {
+        color: #494949;
+    }
+
+    .search a, .search:hover a, .page-nr ul, .items {
+        margin: 0 auto;
+    }
+
+    /* All Products Of A Certain Type (Men, Women, Kids or Sale) */
+
+    .banner {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .all-products {
+        padding: 15px 0 40px;
+    }
+
+    .all-products h2, .criteria {
+        margin: 0;
+    }
+
+    .prod > h2 {
+        font-size: 2.2em;
+        padding: 40px 0 7px;
+    }
+
+    .all-products span, #inspirations h2 {
+        color: #6E6969;
+    }
+
+    .all-products span {
+        font-size: 1.2em;
+        letter-spacing: 0.01em;
+        padding: 0 3px;
+    }
+
+    .all-products span, .criteria input {
+        font-family: serif;
+    }
+
+    .criteria li {
+        padding: 40px 10px 0 0;
+    }
+
+    .criteria input {
+        border: none;
+        border-bottom: 0.1em solid #747272;
+        font-size: 1.3em;
+        padding-left: 2px;
+    }
+
+    .items {
+        min-height: 325px;
+        padding: 0;
+    }
+
+    .items li {
+        height: 100%;
+        margin: 2.9%;
+    }
+
+    .items img {
+        border: 0 solid #D7D1D1;
+    }
+
+    .items h2 {
+        font-weight: 600;
+        padding: 15px 0 6px;
+        font-size: 1.2em;
+    }
+
+    .items, .items span {
+        font-size: 1.1em;
+        color: #2C2C2C;
+    }
+
+    /* Page number list */
+
+    .page-nr ul {
+        width: 9%;
+    }
+
+    .page-nr li {
+        width: 20px;
+        height: 20px;
+        margin: 0 2%;
+    }
+
+    .page-nr li, .page-nr li.active {
+        border: 1px solid #494949;
+    }
+
+    .page-nr a {
+        line-height: 20px;
+    }
+
+    .page-nr li:hover, .page-nr li.active  {
+        background-color: #fff;
+    }
+
+    .page-nr li:hover a {
+        display: block;
+    }
+
+    .page-nr a.active {
+        color: #494949;
+    }
+
+    /* Lookbook carousel */    
+
+    #inspirations {
+        padding-top: 55px;
+        border-top: 0.1em solid #D7D1D1;
+    }
+
+    #inspirations h2, .all-products span, .criteria input {
+        font-style: italic;
+    }
+
+    #inspirations h2 {
+        font-size: 1.5em;
+        padding-bottom: 35px;
+    }
+
+    #inspirations .bx-wrapper {
+        margin: 0 0 30px;
+    }
+
+    /* Large desktop */
+
+    @media (min-width: 1200px) { 
+        .items {
+            width: 941px;
+           
+            li {
+                margin: 1.5%;
+           }
+        }
+    }
+
+    /* Portrait tablet to landscape and desktop */
+
+    @media (min-width: 768px) and (max-width: 979px) { 
+        .items {
+            width: 522px;
+
+            li {
+                margin: 5%;
+            }
+        }
+    }
+
+    /* Landscape phone to portrait tablet */
+
+    @media (max-width: 767px) { 
+        .items {
+            width: 217px;
+        }
+    }
+}

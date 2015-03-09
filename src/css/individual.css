@@ -1,0 +1,112 @@
+.individual {
+  /* Portrait tablet to landscape and desktop */
+  /* Landscape phone to portrait tablet */
+}
+.individual .big-container {
+  position: relative;
+}
+.individual .big-container > img {
+  width: 100%;
+  height: auto;
+}
+.individual .small-container {
+  position: absolute;
+  bottom: 30px;
+  right: 44px;
+}
+.individual .small-container ul {
+  width: 90px;
+}
+.individual .small-container ul li {
+  width: 88px;
+  height: 88px;
+  border: 1px solid #C7C7C7;
+  margin: 5px 0;
+}
+.individual .small-container ul li,
+.individual .features ul li {
+  border: 1px solid #C7C7C7;
+}
+.individual .small-container ul li.active-icon {
+  border: 1px solid #908D8D;
+}
+.individual #product-details {
+  text-align: center;
+}
+.individual #product-details h1 {
+  font-size: 2.3em;
+  color: #303030;
+  padding: 40px 0 15px;
+}
+.individual #product-details span {
+  font-size: 1.8em;
+  font-family: serif;
+  font-style: italic;
+}
+.individual #product-details span,
+.individual #product-details p,
+.individual .features h3 {
+  color: #606060;
+}
+.individual #product-details p {
+  font-size: 1.2em;
+  width: 67%;
+  margin: 15px auto;
+}
+.individual .features ul {
+  width: 110px;
+  margin: 5px auto;
+}
+.individual .features ul li {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 26px;
+  color: #606060;
+  margin: 0px 2px;
+}
+.individual .color li:nth-child(1) {
+  background-color: #D7AA97;
+}
+.individual .color li:nth-child(2) {
+  background-color: #EBCA97;
+}
+.individual .color li:nth-child(3) {
+  background-color: #FBAFB9;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .individual .small-container {
+    bottom: -19px;
+    right: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .individual .big-container {
+    height: 247px;
+  }
+  .individual .small-container {
+    top: 147px;
+    left: 5px;
+  }
+  .individual .small-container ul {
+    width: 288px;
+    font-size: 0px;
+  }
+  .individual .small-container ul li {
+    display: inline-block;
+    margin: 0 1px;
+  }
+  .individual #product-details h1 {
+    font-size: 1.7em;
+    padding: 8px 0 11px;
+  }
+  .individual #product-details h3 {
+    font-size: 1.1em;
+  }
+  .individual #product-details span {
+    font-size: 1.5em;
+  }
+  .individual #product-details p {
+    width: 100%;
+  }
+}

@@ -1,0 +1,135 @@
+.about-us {
+    #short-description span {
+        font-size: 1.2em;
+        letter-spacing: 0.01em;
+        font-family: serif;
+        font-style: italic;
+        padding: 0 3px;
+    }
+
+    #main h2 {
+        color: #343434;
+        font-weight: 600;
+    }
+
+    #main p, #inspirations h2, #short-description span {
+        color: #6E6969;
+    }
+
+    .long-description {
+        float: left;
+    }
+
+    nav ul li, #user-interaction span, .media li {
+        display: inline-block;
+    }
+
+    #short-description h2, #inspirations h2, #short-description p {
+        text-align: center;
+    }
+
+    #inspirations li, .insp-slide, .media a {
+        display: block;
+    }
+
+    header a, .column a, .social span {
+        color: #494949;
+    }
+
+    #inspirations h2, #short-description p {
+        font-family: serif;
+        font-size: 1.5em;
+        font-style: italic;
+    } 
+
+    /* About Us - First Section */
+
+    #short-description {
+        padding-top: 15px;
+    }
+
+    #short-description h2 {
+        font-size: 2.4em;
+        padding: 35px 0 10px;
+    }
+
+    #short-description h2, #short-description p, .long-description h2, .long-description p {
+        margin: 0;
+    }
+
+    .long-description {
+       width: 46%;
+       padding: 35px 2% 50px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .long-description p {
+        padding-bottom: 10px;
+    }
+
+    .long-description h2 {
+        font-size: 1.6em;
+        padding: 19px 0 10px;
+    }
+
+    .long-description p {
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    /* "You may also like" carousel */    
+
+    #inspirations {
+        padding-top: 45px;
+        border-top: 0.1em solid #D7D1D1;
+    }
+
+    #inspirations h2 {
+        padding-bottom: 35px;
+    }
+
+    /* Large desktop */
+
+    @media (min-width: 1600px) { 
+        .long-description {
+            max-width: 520px;
+            padding: 35px 5% 50px;
+
+            h2 {
+                font-size: 2.2em;
+            }
+            p {
+                font-size: 1.3em;
+            }
+        }
+        .long-description.left {
+            float: left;
+        }
+        .long-description.right {
+            float: right;
+        }
+    }
+
+    /* Landscape phone to portrait tablet */
+
+    @media (max-width: 767px) {
+        .long-description {
+            h2 {
+                font-size: 1.3em;
+            }
+            p {
+                width: 100%;
+            }
+        }
+        #short-description {
+            p {
+                font-size: 1.1em;
+            }
+        }
+    }
+}
+
